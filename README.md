@@ -5,3 +5,6 @@
 
 # Raspberry PI 카메라 & openCV 환경 설정 
 http://blog.naver.com/PostView.nhn?blogId=samsjang&logNo=220724263603&categoryNo=82&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView
+
+# PI 카메라 설치
+http://www.hardcopyworld.com/gnuboard5/bbs/board.php?bo_table=lecture_rpi&wr_id=6
