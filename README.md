@@ -8,3 +8,7 @@ http://blog.naver.com/PostView.nhn?blogId=samsjang&logNo=220724263603&categoryNo
 
 # PI 카메라 설치
 http://www.hardcopyworld.com/gnuboard5/bbs/board.php?bo_table=lecture_rpi&wr_id=6
+
+
+# 차선 인식 참고
+http://coldbarleytea.tistory.com/17
