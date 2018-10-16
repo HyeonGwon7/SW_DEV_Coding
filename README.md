@@ -16,3 +16,7 @@ http://coldbarleytea.tistory.com/17
 
 유튜브 영상 설명 있는 git
 https://github.com/Soo92/opencv-with-raspberry/tree/master/lv1/lv1%231%20basic%20traffic%20%26%20lane%20detection
+
+git 차선인식영상 유튜브
+https://www.youtube.com/watch?list=PLO_xCYOfWVFMCXSLggR3i1gtu1g7db450&time_continue=3&v=qnIad9bk-uY
+
