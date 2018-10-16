@@ -12,7 +12,7 @@ http://www.hardcopyworld.com/gnuboard5/bbs/board.php?bo_table=lecture_rpi&wr_id=
 
 # 차선 인식 참고
 http://coldbarleytea.tistory.com/17
-
+https://m.blog.naver.com/PostView.nhn?blogId=windowsub0406&logNo=220894645729&proxyReferer=https%3A%2F%2Fwww.google.com%2F
 
 유튜브 영상 설명 있는 git
 https://github.com/Soo92/opencv-with-raspberry/tree/master/lv1/lv1%231%20basic%20traffic%20%26%20lane%20detection
