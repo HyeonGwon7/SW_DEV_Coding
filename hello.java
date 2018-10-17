@@ -1,8 +1,10 @@
-﻿public class hello{
-  public static void main (String[] args){
-    System.out.println("이현권");
-    System.out.println("chchchch");
-    System.out.println("son");
+class hello{
+  public static void main(String args[]){
+    system.out.println("hello Java");
+    system.out.println("chchchchch");
+    system.out.println("Son");
+    systme.out.println("hihi");
+    system.out.println("Yeahhhhhhh");
 
   }
 }
