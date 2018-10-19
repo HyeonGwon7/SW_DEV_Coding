@@ -36,3 +36,5 @@ http://coldbarleytea.tistory.com/17
 https://github.com/yazeedalrubyli/SDRC
 c++
 http://eyes33.egloos.com/6178173
+
+https://github.com/Kidra521/carnd/blob/master/p1_lane_lines_detection/P1.ipynb
