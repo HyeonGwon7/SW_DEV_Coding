@@ -23,3 +23,5 @@ https://www.youtube.com/watch?list=PLO_xCYOfWVFMCXSLggR3i1gtu1g7db450&time_conti
 
 git
 https://github.com/multunus/autonomous-rc-car.git
+
+https://blog.naver.com/sky200go/221342739214
