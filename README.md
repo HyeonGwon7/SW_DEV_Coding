@@ -45,6 +45,7 @@ https://github.com/windowsub0406/finding-lane-lines/blob/master/SDC_project_1.py
 
 https://medium.com/pharos-production/road-lane-recognition-with-opencv-and-ios-a892a3ab635c
 
+https://blog.naver.com/windowsub0406/220894645729
 
 
 소실점
