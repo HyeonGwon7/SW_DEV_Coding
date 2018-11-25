@@ -53,7 +53,8 @@ https://blog.naver.com/windowsub0406/220894645729
 소실점
 https://github.com/SZanlongo/vanishing-point-detection
 
-
+유튜브 c언어
+https://www.youtube.com/watch?v=iRw-ElEYI9Y
 
 소실점 자료 
 http://www.ntrexgo.com/archives/25916
