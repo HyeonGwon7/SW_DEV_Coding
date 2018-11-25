@@ -52,3 +52,8 @@ https://blog.naver.com/windowsub0406/220894645729
 
 소실점
 https://github.com/SZanlongo/vanishing-point-detection
+
+
+
+소실점 자료 
+http://www.ntrexgo.com/archives/25916
