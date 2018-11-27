@@ -58,3 +58,6 @@ https://www.youtube.com/watch?v=iRw-ElEYI9Y
 
 소실점 자료 
 http://www.ntrexgo.com/archives/25916
+
+fit line
+https://m.blog.naver.com/samsjang/220517391218
