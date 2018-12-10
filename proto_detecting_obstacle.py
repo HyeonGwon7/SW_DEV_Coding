@@ -18,9 +18,9 @@ try:
 		DL_status = GPIO.input(DL)
 		print(DR_status,DL_status)
 		if((DL_status == 0) or (DR_status == 0)):
-		#	Ab.left()
+			Ab.left()
 			#Ab.right()
-		#	time.sleep(0.002)
+			time.sleep(0.002)
 			Ab.stop()
 			print("object")
 		else:
