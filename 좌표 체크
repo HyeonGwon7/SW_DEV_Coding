@@ -1,0 +1,21 @@
+import numpy as np   # for zeros
+import cv2 as cv
+
+
+class MenuControler(): 
+
+# 1. 마우스 이벤트 발생시 호출될 함수를 정의합니다. 
+    def mouse_callback(event, x, y, flags, param):
+
+        if(event == cv.EVENT_LBUTTONUP :  
+            print(x,y)
+
+        img = np.zeros((512, 512, 3), np.uint8)
+        cv.namedWindow('image')  # 2. 마우스 이벤트를 감지할 윈도우를 생성합니다.  
+
+
+    
+
+
+# 3. 이름이 image인 윈도우에서 마우스 이벤트가 발생하면 mouse_callback 함수가 호출되게 됩니다. 
+        cv.setMouseCallback('image', mouse_callback)
