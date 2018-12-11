@@ -1,21 +1,37 @@
 import numpy as np   # for zeros
 import cv2 as cv
+from display_ver3 import Display
 
 
-class MenuControler(): 
+class MenuControler():
+
+    a = Display()
 
 # 1. 마우스 이벤트 발생시 호출될 함수를 정의합니다. 
     def mouse_callback(event, x, y, flags, param):
 
-        if(event == cv.EVENT_LBUTTONUP :  
-            print(x,y)
-
-        img = np.zeros((512, 512, 3), np.uint8)
-        cv.namedWindow('image')  # 2. 마우스 이벤트를 감지할 윈도우를 생성합니다.  
-
-
+       
+        if(event == cv.EVENT_LBUTTONUP and (x >= 340 and x < 590) and (y > 255 and y < 280)):
+            cv.destroyAllWindows()
+            a.Display_Control()
+            print("Canny Cammer MODE")
+        
     
+        elif(event == cv.EVENT_LBUTTONUP and (x> 340 and x < 600 ) and (y > 330 and y < 350)):
+            cv.destroyAllWindows()
+            a.Display_Control()
+            print("Detecting Obstacle MODE")
+        
 
+        elif(event == cv.EVENT_LBUTTONUP and (x> 340 and x <730 ) and (y > 400 and y <420)):
+            cv.destroyAllWindows()
+            a.Display_Control()
+            print("Straight Driving MODE")
+       
 
-# 3. 이름이 image인 윈도우에서 마우스 이벤트가 발생하면 mouse_callback 함수가 호출되게 됩니다. 
-        cv.setMouseCallback('image', mouse_callback)
+        elif(event == cv.EVENT_LBUTTONUP and (x>340 and x < 640 ) and (y> 470 and y <490)):
+            cv.destroyAllWindows()
+            a.Display_Control()
+            print("Auto Driving MODE")
+       
+
