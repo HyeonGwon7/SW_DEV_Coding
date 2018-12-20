@@ -1,3 +1,4 @@
+
 import RPi.GPIO as GPIO
 import time
 
@@ -10,8 +11,8 @@ class AlphaBot2(object):
 		self.BIN2 = bin2
 		self.ENA = ena
 		self.ENB = enb
-		self.PA  = 50
-		self.PB  = 50
+		self.PA  = 9.15	 
+		self.PB  = 10
 
 		GPIO.setmode(GPIO.BCM)
 		GPIO.setwarnings(False)
@@ -54,8 +55,8 @@ class AlphaBot2(object):
 
 		
 	def left(self):
-		self.PWMA.ChangeDutyCycle(30)
-		self.PWMB.ChangeDutyCycle(30)
+		self.PWMA.ChangeDutyCycle(2.75)
+		self.PWMB.ChangeDutyCycle(3)
 		GPIO.output(self.AIN1,GPIO.HIGH)
 		GPIO.output(self.AIN2,GPIO.LOW)
 		GPIO.output(self.BIN1,GPIO.LOW)
@@ -63,8 +64,8 @@ class AlphaBot2(object):
 
 
 	def right(self):
-		self.PWMA.ChangeDutyCycle(30)
-		self.PWMB.ChangeDutyCycle(30)
+		self.PWMA.ChangeDutyCycle(2.75)
+		self.PWMB.ChangeDutyCycle(3)
 		GPIO.output(self.AIN1,GPIO.LOW)
 		GPIO.output(self.AIN2,GPIO.HIGH)
 		GPIO.output(self.BIN1,GPIO.HIGH)
@@ -96,13 +97,12 @@ class AlphaBot2(object):
 			GPIO.output(self.BIN2,GPIO.HIGH)
 			self.PWMB.ChangeDutyCycle(0 - left)
 
-if __name__=='__main__':
 
+if __name__ == '__main__':
 	Ab = AlphaBot2()
 	Ab.forward()
 	try:
 		while True:
 			time.sleep(1)
 	except KeyboardInterrupt:
-		GPIO.cleanup()
-
+		GPIO.cleanup()	
