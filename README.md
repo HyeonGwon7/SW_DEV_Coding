@@ -7,14 +7,21 @@
 프로그램 실행에 앞서 OpenCV, Pi 카메라 모듈 설정이 되지 않았다면 각 파트별 설정 방법을 위한 사이트를 게시해 두었으니 따라하시면 됩니다.!
 
 1. 다음의 소스코드 파일을 라즈베리 파이의 한 폴더 안에 넣습니다.
+
 AlphaBot2.py
+
 ModeView.py
+
 LaneDetection.py
+
 ObstacleDetection.py
+
 CarControl.py
+
 Main.py
  
 2. 터미널 실행시켜 소스 파일이 있는 폴더로 가서 다음의 명령어를 입력합니다.
+
 python Main.py
 
 
