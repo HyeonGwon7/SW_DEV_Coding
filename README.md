@@ -8,21 +8,21 @@
 
 1. 다음의 소스코드 파일을 라즈베리 파이의 한 폴더 안에 넣습니다.
 
-AlphaBot2.py
+ AlphaBot2.py
 
-ModeView.py
+ ModeView.py
 
-LaneDetection.py
+ LaneDetection.py
 
-ObstacleDetection.py
+ ObstacleDetection.py
 
-CarControl.py
+ CarControl.py
 
-Main.py
+ Main.py
  
 2. 터미널 실행시켜 소스 파일이 있는 폴더로 가서 다음의 명령어를 입력합니다.
 
-python Main.py
+ python Main.py
 
 
 
@@ -57,17 +57,22 @@ https://blog.naver.com/sky200go/221342739214
 https://github.com/JaeCholJeon/autonomous_car_raspberry_pi
 
 차선 인식 
+
 http://coldbarleytea.tistory.com/17
 
 짧은거
+
 https://github.com/yazeedalrubyli/SDRC
+
 c++
+
 http://eyes33.egloos.com/6178173
 
 https://github.com/Kidra521/carnd/blob/master/p1_lane_lines_detection/P1.ipynb
 
 
 유다씨티
+
 https://github.com/windowsub0406/finding-lane-lines/blob/master/SDC_project_1.py
 
 https://medium.com/pharos-production/road-lane-recognition-with-opencv-and-ios-a892a3ab635c
@@ -76,13 +81,17 @@ https://blog.naver.com/windowsub0406/220894645729
 
 
 소실점
+
 https://github.com/SZanlongo/vanishing-point-detection
 
 유튜브 c언어
+
 https://www.youtube.com/watch?v=iRw-ElEYI9Y
 
 소실점 자료 
+
 http://www.ntrexgo.com/archives/25916
 
 fit line
+
 https://m.blog.naver.com/samsjang/220517391218
