@@ -2,6 +2,24 @@
 
 초중고코딩팀 자율주행 모형차
 
+# 프로그램 실행법 
+
+프로그램 실행에 앞서 OpenCV, Pi 카메라 모듈 설정이 되지 않았다면 각 파트별 설정 방법을 위한 사이트를 게시해 두었으니 따라하시면 됩니다.!
+
+1. 다음의 소스코드 파일을 라즈베리 파이의 한 폴더 안에 넣습니다.
+AlphaBot2.py
+ModeView.py
+LaneDetection.py
+ObstacleDetection.py
+CarControl.py
+Main.py
+ 
+2. 터미널 실행시켜 소스 파일이 있는 폴더로 가서 다음의 명령어를 입력합니다.
+python Main.py
+
+
+
+
 # Raspberry PI 원격 접속
 http://blog.naver.com/PostView.nhn?blogId=elepartsblog&logNo=221046153806&parentCategoryNo=&categoryNo=&viewDate=&isShowPopularPosts=false&from=postView
 
@@ -12,7 +30,7 @@ http://blog.naver.com/PostView.nhn?blogId=samsjang&logNo=220724263603&categoryNo
 http://www.hardcopyworld.com/gnuboard5/bbs/board.php?bo_table=lecture_rpi&wr_id=6
 
 
-# 차선 인식 참고
+# 차선 검출 참고 자료
 http://coldbarleytea.tistory.com/17
 https://m.blog.naver.com/PostView.nhn?blogId=windowsub0406&logNo=220894645729&proxyReferer=https%3A%2F%2Fwww.google.com%2F
 
